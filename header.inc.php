@@ -22,7 +22,7 @@
     <li><a href="pauline_b.php" title="Pauline B.">Pauline B.</a></li>
     </ul>
 </li>
-<li><a href="contactcm.php" title="Contact DogAnima">Contact</a></li>
+<li><a href="contact.php" title="Contact DogAnima">Contact</a></li>
 </ul>
 </div>
 </nav>
