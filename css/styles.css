@@ -1,0 +1,464 @@
+body {
+	font-family: arial, geneva, sans-serif;
+	/*
+	  background: url("../img/dogan_1.jpg") no-repeat scroll center top;   
+	  background-size: 960px; 
+	  background-size: 70.26%; 
+	  background-color: #f1eef9; 
+	  padding-top: 170px;
+	*/
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+	border-left: 1px solid #c0c0c0;
+	border-right: 1px solid #c0c0c0;
+	border-bottom: 1px solid #c0c0c0;
+    max-width: 960px; width:100%;
+}
+section {
+	font-family: arial, geneva, sans-serif;
+	word-spacing: 1px;
+    background-color: white;
+	/*border-left: 1px solid #c0c0c0;*/
+	/*border-right: 1px solid #c0c0c0;*/
+	/* border-top: 1px solid #c0c0c0; */
+	/* border-bottom: 1px solid #c0c0c0; */
+	/* border-radius: 8px; */
+	font-size: 96%;
+	text-align: justify;
+}
+aside {
+   text-align: center;	
+}	
+footer {
+   text-align: center;	   
+} 
+article {
+  text-align: center;			
+}	
+img.round {
+	/* padding-bottom: 0px; */
+	width: 100%;
+   -moz-border-radius: 8px;
+   -webkit-border-radius: 8px;
+   -ms-border-radius: 8px;
+    border-radius: 8px;
+}
+div.center {
+	text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+div.centerblack {
+	text-align: center;
+	color : #000000;
+}	
+div.center2 {
+	text-align: center;
+}
+div.justify {
+	text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    width: 71%;
+}
+div.justifyred {
+	color: #ff0000;
+	text-align: center;
+    width: 71%;
+}
+div.left {
+	text-align: left;
+    vertical-align: top;
+}	
+div.right {
+	text-align: right;
+    vertical-align: top;
+}	
+table.foot1 {
+   /*border-left: 1px solid #c0c0c0; */
+   /*border-right: 1px solid #c0c0c0; */
+   border-bottom: 1px solid #c0c0c0; 
+   border-radius: 0;
+   /* background-color: #f2efeb; */
+   background-color: #ffffff;
+   text-align: justify;
+   font-size: 90%;
+   width: 100%;
+}
+div.foot1 {
+   /*border-left: 1px solid #c0c0c0; */
+   /*border-right: 1px solid #c0c0c0; */
+   border-bottom: 1px solid #c0c0c0; 
+   border-radius: 0;
+   /* background-color: #f2efeb; */
+   background-color: #ffffff;
+   text-align: justify;
+   font-size: 90%;
+   width: 100%;
+}
+a.foot3 {
+    margin-left: 6%;
+	font-size: 90%;
+}
+a.foot4 {
+    margin-left: 17%;
+	font-size: 90%;
+}
+a.foot5 {
+    margin-left: 28%;
+	font-size: 90%;
+}
+a.foot6 {    
+    margin-left: 7%;
+	font-size: 90%;	
+}	
+a.foot7 {
+	margin-left: 4%;
+	font-size: 90%;
+}
+a.foot8 {
+	font-size: 90%;
+}
+td.valigntop {
+	vertical-align: top;
+}	
+td.center {
+   text-align: center;	
+}	
+td.valigntopw80 {
+   vertical-align: top;	
+   width: 80%;
+}
+td.valigntopwhite {
+   /* color: #00F; */
+   border: 1px solid white;
+   vertical-align: top;	
+   text-align: left;
+}
+td.width49 {
+  width: 49.5%;
+}
+td.width5 {
+  width: 5%;
+}
+table.center2 {
+	text-align: justify;
+	margin-left: auto;
+    margin-right: auto;
+	border: 1px solid #c0c0c0;
+}	
+table.center3 {
+	text-align: left;
+	/* margin-left: 4%; */
+    /* margin-right: auto; */
+	width: 50%;
+}	
+table.width100 {
+  width: 100%;	
+  border-bottom: 1px solid #c0c0c0;
+}
+table{
+	font-family: arial, geneva, sans-serif;
+	font-size: 100%;
+	margin: 0 auto;
+	width: 99%;
+	background-color: #ececec;
+	border-collapse: separate;
+	border-spacing: 0px;
+	border-radius: 10px;
+}
+table.center75 {
+	text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+table.contact {
+  background-color: white; 
+  border: 1px solid white;
+}	
+td {
+   padding: 1px;   
+}	
+@media (max-width: 600px) {
+	nav li {display: block; width: 100%; }
+}
+@media (min-width: 601px) {
+    nav li {display: inline-block;}	
+}	
+img.ban1 {
+	vertical-align: top;
+	position: relative;
+	-webkit-animation: mymove1 3s linear 4s infinite alternate;
+	
+	/* Ce n'est pas nécessaire de déclarer pour Opera
+	Ne fonctionne qu'avec les deux dernières versions de Opera
+	-o-animation: mymove1 3s linear 4s infinite alternate; *
+	*/
+    -moz-animation: mymove1 3s linear 4s infinite alternate;
+	-ms-animation: mymove1 3s linear 4s infinite alternate;
+	animation: mymove1 3s linear 4s infinite alternate;
+	-webkit-animation-iteration-count: 4;
+	animation-iteration-count: 4;
+	}
+	@-webkit-keyframes mymove1 {
+		from {opacity:1;}
+		to {opacity:0;}
+	}
+	/* @-o-keyframes mymove1 {
+		from {opacity:1;}
+		to {opacity:0;}
+	}
+	*/
+	@-moz-keyframes mymove1 {
+		from {opacity:1;}
+		to {opacity:0;}
+	}
+	@-ms-keyframes mymove1 {
+		from {opacity:1;}
+		to {opacity:0;}
+	}
+	@keyframes mymove1 {
+		from {opacity:1;}
+		to {opacity:0;}
+	}
+
+img.ban2 {
+	opacity: 0; 
+	margin-top: -191px; 
+	vertical-align: top;
+	position: relative; 
+	-webkit-animation: mymove2 3s linear 4s infinite alternate; 
+	/* -o-animation: mymove2 3s linear 4s infinite alternate; */
+    -moz-animation: mymove2 3s linear 4s infinite alternate;
+	-ms-animation: mymove2 3s linear 4s infinite alternate;
+	animation: mymove2 3s linear 4s infinite alternate;
+	-webkit-animation-iteration-count: 4;
+	animation-iteration-count: 4;
+	}
+	@-webkit-keyframes mymove2 {
+		from {opacity:0;}
+		to {opacity:1;}
+	}
+	/*
+	@-o-keyframes mymove2 {
+		from {opacity:0;}
+		to {opacity:1;}
+	}
+	*/
+	@-moz-keyframes mymove2 {
+		from {opacity:0;}
+		to {opacity:1;}
+	}
+	@-ms-keyframes mymove2 {
+		from {opacity:0;}
+		to {opacity:1;}
+	}
+	@keyframes mymove2 {
+		from {opacity:0;}
+		to {opacity:1;}
+    }	
+img.logo {
+   vertical-align: top;
+   margin-top: 70px;
+   margin-left: -460px; 
+   z-index:2;
+   position: absolute; 
+   text-align: left;
+   border-radius: 6px;  
+}	
+a.alink:hover {
+  color: black; 
+  text-decoration: underline;
+  background-color: #ffffff;
+}
+a.alink:link {
+  color: #00f;
+  text-decoration: none;
+}
+a.alink {
+  color: #00f;
+  text-decoration: none;
+}
+h1.title {
+   text-align: left; 
+   margin-top: 5px; 
+   font-size: 135%;"
+}	
+div.index1 {
+	display: block;
+    height: auto;
+    font-family: arial, geneva, sans-serif;
+	font-size: 100%;
+	margin-left: 6px;
+	margin-right: 6px;
+	margin-bottom: -10px;
+	background-color: #ececec;
+	border-collapse: separate;
+	border-spacing: 0px;
+	border-radius: 10px;
+}	
+div.index21 {
+   display: inline-block;
+   margin-left: 6px;
+   margin-bottom: 6px;
+   width: 49%;
+   /*float: left;*/
+   background-color: #ececec;
+   border-collapse: separate;
+   border-spacing: 0px;
+   border-radius: 10px;
+}
+div.index22 {
+   display: inline-block;
+   vertical-align: top;
+   margin-right: 6px;   
+   margin-bottom: 6px;
+   padding: 0px 0px 33px 0px;
+   vertical-align: top;
+   width: 49%;
+   /*float: right;*/
+   background-color: #ececec;
+   border-collapse: separate;
+   border-spacing: 0px;
+   border-radius: 10px;
+}
+div.present11 {
+   display: inline-block;
+   margin-left: 6px;
+   margin-bottom: 6px;
+   width: 49%;
+   /*float: left;*/
+   background-color: #ececec;
+   /*border-bottom: 1px solid #c0c0c0;*/
+   border-collapse: separate;
+   border-spacing: 0px;
+   border-radius: 10px;
+}
+div.present12 {	
+   display: inline-block;
+   vertical-align: top;
+   /* margin-top: 6px; */
+   margin-right: 6px;   
+   /*margin-bottom: auto;*/
+   padding: 0px 0px 0px 0px;
+   width: 49%;
+   /*float: right;*/
+   background-color: #ececec;
+   /*border-bottom: 1px solid #c0c0c0;*/
+   border-collapse: separate;
+   border-spacing: 0px;
+   border-radius: 10px;
+}
+div.nicolas_m_1 {
+   display: inline-block;
+   margin-left: 6px;
+   margin-bottom: 6px;
+   width: 46%;
+   float: left;
+   background-color: #ececec;
+   border-collapse: separate;
+   border-spacing: 0px;
+   border-radius: 10px;
+}
+div.nicolas_m_2 {
+   display: inline-block;
+   margin-left: 6px;
+   margin-bottom: 6px;
+   /*width: 30%;*/
+   float: right;
+   background-color: #ececec;
+   border-collapse: separate;
+   border-spacing: 0px;
+   border-radius: 10px;	
+}
+div.viviane_g_1 {
+   display: inline-block;
+   margin-left: 6px;
+   margin-bottom: 6px;
+   width: 46%;
+   float: left;
+   background-color: #ececec;
+   border-collapse: separate;
+   border-spacing: 0px;
+   border-radius: 10px;
+}
+div.viviane_g_2 {
+   display: inline-block;
+   margin-left: 6px;
+   margin-bottom: 6px;
+   /*width: 30%;*/
+   float: right;
+   background-color: #ececec;
+   border-collapse: separate;
+   border-spacing: 0px;
+   border-radius: 10px;	
+}
+div.jade_l_1 {
+   display: inline-block;
+   margin-left: 6px;
+   margin-bottom: 6px;
+   width: 46%;
+   float: left;
+   background-color: #ececec;
+   border-collapse: separate;
+   border-spacing: 0px;
+   border-radius: 10px;
+}
+div.jade_l_2 {
+   display: inline-block;
+   margin-left: 6px;
+   margin-bottom: 6px;
+   /*width: 30%;*/
+   float: right;
+   background-color: #ececec;
+   border-collapse: separate;
+   border-spacing: 0px;
+   border-radius: 10px;	
+}
+div.ludivine_e_1 {
+   display: inline-block;
+   margin-left: 6px;
+   margin-bottom: 6px;
+   width: 46%;
+   float: left;
+   background-color: #ececec;
+   border-collapse: separate;
+   border-spacing: 0px;
+   border-radius: 10px;
+}
+div.ludivine_e_2 {
+   display: inline-block;
+   margin-left: 6px;
+   margin-bottom: 6px;
+   /*width: 30%;*/
+   float: right;
+   background-color: #ececec;
+   border-collapse: separate;
+   border-spacing: 0px;
+   border-radius: 10px;	
+}
+div.pauline_b_1 {
+   display: inline-block;
+   margin-left: 6px;
+   margin-bottom: 6px;
+   width: 46%;
+   float: left;
+   background-color: #ececec;
+   border-collapse: separate;
+   border-spacing: 0px;
+   border-radius: 10px;
+}
+div.pauline_b_2 {
+   display: inline-block;
+   margin-left: 6px;
+   margin-bottom: 6px;
+   /*width: 30%;*/
+   float: right;
+   background-color: #ececec;
+   border-collapse: separate;
+   border-spacing: 0px;
+   border-radius: 10px;	
+}

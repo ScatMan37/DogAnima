@@ -1,0 +1,18 @@
+/*                                                 */
+/* Fichier CSS pour l'impression de la page tarifs */
+/* Création : le 30/12/2015                        */
+/* Auteur   : Laurent Gouthière                    */
+/*                                                 */
+
+body { /* Modifications : la couleur de fond de page - la police - l'unité utilisée pour la taille de la police  */
+  background-color :#fff;
+  font-family: arial, geneva, sans-serif;
+  font-size: 13pt;
+}
+#main { /* Modifications : suppression de la bordure - marges */
+  margin: 0;
+  border: none;
+}
+#banner, #menu, #footer, #printform { /* Les éléments qui ne seront pas affichés  */
+  display: none;
+}
