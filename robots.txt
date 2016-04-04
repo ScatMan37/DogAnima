@@ -1,0 +1,17 @@
+User-agent: *
+Disallow: /css/
+Disallow: /img/
+Disallow: /js/
+Disallow: /actionformcm.php
+Disallow: /contactcm.php
+Disallow: /credits.php
+Disallow: /footer.inc.php
+Disallow: /header.inc.php
+Disallow: /headerIndex.inc.php
+Disallow: /jade_l.php
+Disallow: /ludivine_e.php
+Disallow: /mentionsleg.php
+Disallow: /nicolas_m.php
+Disallow: /pauline_b.php
+Disallow: /viviane_g.php
+Sitemap: http://www.doganima.org/sitemap.xml
